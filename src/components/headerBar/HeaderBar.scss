@@ -1,0 +1,26 @@
+.top-bar {
+  background-color: #323b42;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  p {
+    font-family: "Open Sans";
+    color: white;
+    font-size: 16px;
+    letter-spacing: 2.1px;
+    margin: 12px 0;
+    text-align: center;
+    @media (max-width: 1360px) {
+      font-size: 14px;
+    }
+    @media (max-width:1024px) {
+      font-size: 12px;
+      letter-spacing: 0;
+      margin: 8px 15px;
+    }
+    a {
+      color: #91b456;
+    }
+  }
+}
